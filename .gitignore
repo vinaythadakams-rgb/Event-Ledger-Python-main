@@ -1,0 +1,29 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Pytest cache
+.pytest_cache/
+
+# SQLite database and logs
+Event-Ledger-Python-main-main/Event-Ledger-Python-main/event_ledger.db
+Event-Ledger-Python-main-main/Event-Ledger-Python-main/event_ledger.log
+Event-Ledger-Python-main/event_ledger.db
+Event-Ledger-Python-main/event_ledger.log
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Docker artifacts
+*.log
+
+# macOS
+.DS_Store
